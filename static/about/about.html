@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Hamdan-Nodejs</title>
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <div id="Home" class="tabcontent">
+      <h1>Hamdan Home</h1>
+      <h1>Home</h1>
+      <h1>Prctical Nodejs</h1>
+    </div>
+
+    <div id="caesarsCipher" class="tabcontent">
+      <h1>Hamdan CaesarsCipher</h1>
+      <h1>CaesarsCipher</h1>
+      <h1>Prctical Nodejs</h1>
+    </div>
+
+    <div id="calculator" class="tabcontent">
+      <h1>Hamdan Calculator</h1>
+      <h1>Calculator</h1>
+      <h1>Prctical Nodejs</h1>
+    </div>
+    <div id="about" class="tabcontent">
+      <h1>Hamdan app</h1>
+      <h1>about</h1>
+      <h1>Prctical Nodejs</h1>
+    </div>
+    
+    <button class="tablink" onclick="openCity('Home', this, 'blue')" id="defaultOpen">
+      <a href="/api">Home</a>
+    </button>
+    <button
+      class="tablink"
+      onclick="openCity('caesarsCipher', this, 'red')"
+    >
+      <a href="/api/caesars">CaesarsCipher</a>
+    </button>
+    <button
+      class="tablink"
+      onclick="openCity('calculator', this, 'green' )">
+      <a href="/api/calc" rel="noopener noreferrer">Calculator</a>
+    </button>
+    <button class="tablink" onclick="openCity('about', this, 'blue')">
+      <a href="/api/about">about</a>
+    </button>
+   
+    <dev class="result">
+      <div id="result"></div>
+      <div id="error"></div>
+    </dev>
+    <h2>About Page</h1>
+   <ul>
+       <li>actually I have no idea what should put here, but I'm trying to do sth :)</li>
+       <br>
+       <li><span> This repo app on </span> <a href="https://github.com/hamdan-99/nodejs-apps"> Github</a></li>
+       <br>
+       <li>Live App  <a href="#"> Live nodejs-app</a></li>
+       <br>
+   </ul>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
+
